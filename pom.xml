@@ -1,33 +1,33 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>CVE2012</groupId>
-  <artifactId>CS</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <groupId>com.blackducksoftware.test</groupId>
+  <artifactId>example-maven-travis</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
 
-  <name>CS</name>
-  <url>http://maven.apache.org</url>
+  <name>Example for Maven/Travis CI</name>
+  <description>Provide an example of configuring a Maven project to scan for vulnerabilities</description>
+  <url>https://github.com/ashiq1992/attempt102</url>
+  <inceptionYear>2017</inceptionYear>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-
+	
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  
+<!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
 <dependency>
-    <groupId>org.apache.tomcat</groupId>
-    <artifactId>tomcat-catalina</artifactId>
-    <version>8.5.34</version>
+    <groupId>org.apache.derby</groupId>
+    <artifactId>derby</artifactId>
+    <version>10.2.2.0</version>
 </dependency>
 
-    
+
+
+
+
+
   </dependencies>
 </project>
