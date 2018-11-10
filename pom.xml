@@ -19,9 +19,9 @@
   <dependencies>
 <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
 <dependency>
-    <groupId>com.umlet</groupId>
-    <artifactId>umlet</artifactId>
-    <version>12.0</version>
+    <groupId>org.mozilla.components</groupId>
+    <artifactId>toolbar</artifactId>
+    <version>0.25.1</version>
 </dependency>
 
 
