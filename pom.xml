@@ -19,10 +19,12 @@
   <dependencies>
 <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
 <dependency>
-    <groupId>org.apache.hive</groupId>
-    <artifactId>hive-jdbc</artifactId>
-    <version>0.13.1</version>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>catalina</artifactId>
+    <version>6.0.43</version>
+    <scope>provided</scope>
 </dependency>
+
 
 
 
