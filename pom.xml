@@ -19,10 +19,11 @@
   <dependencies>
 <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
 <dependency>
-    <groupId>org.apache.openejb</groupId>
-    <artifactId>apache-tomee</artifactId>
-    <version>1.7.3</version>
+    <groupId>org.apache.hive</groupId>
+    <artifactId>hive-jdbc</artifactId>
+    <version>0.13.1</version>
 </dependency>
+
 
 
 
