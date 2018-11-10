@@ -19,9 +19,9 @@
   <dependencies>
 <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
 <dependency>
-    <groupId>org.apache.atlas</groupId>
-    <artifactId>atlas-repository</artifactId>
-    <version>0.6-incubating</version>
+    <groupId>org.mozilla.components</groupId>
+    <artifactId>toolbar</artifactId>
+    <version>0.25.1</version>
 </dependency>
 
 
